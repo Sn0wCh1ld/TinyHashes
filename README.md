@@ -1,6 +1,6 @@
 # TinyHashes
 
-A tiny Swift package for easily computing the SHA-1 and SHA-256 hex digest. Uses CryptoKit on iOS 13, and CommonCrypto otherwise.
+A tiny Swift package for easily computing the SHA-1 and SHA-256 hex digest. Uses only CommonCrypto, avoiding CryptoKit.
 
 ## Examples
 
